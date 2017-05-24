@@ -16,7 +16,7 @@ angular.module(..., [ngswal2])
 
 // inject the factory
 .factory(..., ['Swal', function (Swal, ...) {
-  // user the factory as you would use the regular SweetAlert2
+  // use the factory as you would use the regular SweetAlert2
   
   Swal({
     title: 'My title',
