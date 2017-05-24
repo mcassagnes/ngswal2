@@ -3,7 +3,7 @@ import swal from 'sweetalert2'
 
 const ngSwalModule = angular.module('ngSwal2', [])
 
-.factory('Swal', ['$q', '$rootScope', '$timeout', function ($q, $rootScope, $timeout) {
+.factory('Swal', ['$q', '$rootScope', function ($q, $rootScope) {
   const NgSwal = (options) => {
     return $q((resolve, reject) => {
       swal(options).then(resolve).catch(reject)
