@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "angular": "^1.6.4",
+    "sweetalert2": "^6.6.4"
+  }
 }
