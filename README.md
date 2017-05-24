@@ -12,11 +12,9 @@ yarn add ngswal2
 import ngswal2 from 'ngswal2'
 
 // inject it as a dependency in your app
-
 angular.module(..., [ngswal2])
 
 // inject the factory
-
 .factory(..., ['Swal', function (Swal, ...) {
   // user the factory as you would use the regular SweetAlert2
   
