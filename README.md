@@ -31,6 +31,14 @@ angular.module(..., [ngswal2])
 }])
 ```
 
+### Don't forget to import SweetAlert2's CSS
+Using SCSS
+```
+@import "~sweetalert2/dist/sweetalert2.css";
+```
+
+You can also reference SweetAlert2's cdn in your HTML.
+
 
 ### Limitations
 All methods that return a value (getters ie `isVisible`), and methods that return a promise (ie `queue`) are not supported.
