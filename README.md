@@ -21,11 +21,9 @@ angular.module(..., [ngswal2])
   Swal({
     title: 'My title',
     text: 'Hello World!'
-  }).then(() => {
-    
-  }).catch((error) => {
-    
   })
+  .then(...)
+  .catch(...)
 }])
 ```
 
